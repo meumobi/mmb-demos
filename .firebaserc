@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "meu-starter"
+  },
+  "targets": {
+    "meu-starter": {
+      "hosting": {
+        "master-detail-ionic4": [
+          "master-detail-ionic4"
+        ],
+        "crud-angularfirestore-ionic4": [
+          "crud-angularfirestore-ionic4"
+        ]
+      }
+    }
+  }
+}

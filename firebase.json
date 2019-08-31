@@ -1,0 +1,33 @@
+{
+  "hosting": [ {
+    "target": "crud-angularfirestore-ionic4",
+    "public": "mmb-demos.crud-angularfirestore-ionic4/www",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "target": "master-detail-ionic4",
+    "public": "mmb-demos.master-detail-ionic4/www",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }]
+ }
+ 
