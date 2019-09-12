@@ -1,0 +1,6 @@
+[submodule "mmb-demos.crud-angularfirestore-ionic4"]
+	path = mmb-demos.crud-angularfirestore-ionic4
+	url = https://github.com/meumobi/mmb-demos.crud-angularfirestore-ionic4
+[submodule "mmb-demos.master-detail-ionic4"]
+	path = mmb-demos.master-detail-ionic4
+	url = https://github.com/meumobi/mmb-demos.master-detail-ionic4
