@@ -2,12 +2,13 @@ mmb-demos is a [firebase project hosting multi-sites](https://firebase.google.co
 
 ## Create new demo
 
-1. Create new github repo
-    - named mmb-demos.[PROJECT-NAME]
-2. Import submodule
-    - Import new project as submodule on mmb-demos `$ git submodule add https://github.com/meumobi/mmb-demos.[PROJECT-NAME].git`
-3. Add additional site
+1. Firebase Hosting: Add additional site
     -  Should be done directly from [Firebase Hosting page](https://console.firebase.google.com/u/0/project/meu-starter/hosting/main) of mmb-demos project. Use [PROJECT-NAME] as subdomain.
+2. Create new github repo
+    - named mmb-demos.[PROJECT-NAME]
+3. Import submodule
+    - Import new project as submodule on mmb-demos `$ git submodule add https://github.com/meumobi/mmb-demos.[PROJECT-NAME].git`
+
 4. Define the hosting configuration
 
 Add on `firebase.json``
