@@ -1,9 +1,9 @@
-[submodule "mmb-demos.crud-angularfirestore-ionic4"]
-	path = mmb-demos.crud-angularfirestore-ionic4
-	url = https://github.com/meumobi/mmb-demos.crud-angularfirestore-ionic4
 [submodule "mmb-demos.master-detail-ionic4"]
 	path = mmb-demos.master-detail-ionic4
 	url = https://github.com/meumobi/mmb-demos.master-detail-ionic4
 [submodule "mmb-demos.auth-firebase-email-link"]
 	path = mmb-demos.auth-firebase-email-link
 	url = https://github.com/meumobi/mmb-demos.auth-firebase-email-link.git
+[submodule "crud-angularfirestore-ionic4"]
+	path = crud-angularfirestore-ionic4
+	url = https://github.com/meumobi/mmb-demos.crud-angularfirestore-ionic4
