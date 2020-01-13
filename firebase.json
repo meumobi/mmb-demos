@@ -2,7 +2,7 @@
   "hosting":[ 
   {
     "target": "crud-angularfirestore-ionic4",
-    "public": "mmb-demos.crud-angularfirestore-ionic4/www",
+    "public": "crud-angularfirestore-ionic4/www",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -33,6 +33,21 @@
   {
     "target": "auth-firebase-email-link",
     "public": "mmb-demos.auth-firebase-email-link/www",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "target": "fcm-web-push-ionic",
+    "public": "fcm-web-push-ionic/www",
     "ignore": [
       "firebase.json",
       "**/.*",

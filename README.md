@@ -7,7 +7,7 @@ mmb-demos is a [firebase project hosting multi-sites](https://firebase.google.co
 2. Create new github repo
     - named mmb-demos.[PROJECT-NAME]
 3. Import submodule
-    - Import new project as submodule on mmb-demos `$ git submodule add https://github.com/meumobi/mmb-demos.[PROJECT-NAME].git`
+    - Import new project as submodule on mmb-demos `$ git submodule add https://github.com/meumobi/mmb-demos.[PROJECT-NAME].git [PROJECT-NAME]`
 
 4. Define the hosting configuration
 
@@ -16,7 +16,7 @@ Add on `firebase.json``
 ```json
   {
     "target": "[PROJECT-NAME]",
-    "public": "mmb-demos.[PROJECT-NAME]/www",
+    "public": "[PROJECT-NAME]/www",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -30,14 +30,18 @@ Add on `firebase.json``
     ]
   }
 ```
-5. Set up deploy target
+5. Create Firebase web app
+  - Project Settings / General / Add App [PROJECT-NAME]
+  - Link App to related site hosting
+6. [Set up deploy target](https://firebase.google.com/docs/hosting/multisites#set_up_deploy_targets)
    - `$ firebase target:apply hosting [PROJECT-NAME] [PROJECT-NAME]`
-6. Serve locally
+7. Serve locally
     - `firebase serve --only hosting:[PROJECT-NAME]`
 
 ## Deploy demo
 
-1. Build project
+1. Build prod version
+  - save it on public directory `[PROJECT-NAME]/www`
 2. Deploy
     - `$ firebase deploy --only hosting:[PROJECT-NAME]`
   

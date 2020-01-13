@@ -10,6 +10,12 @@
         ],
         "crud-angularfirestore-ionic4": [
           "crud-angularfirestore-ionic4"
+        ],
+        "auth-firebase-email-link": [
+          "auth-firebase-email-link"
+        ],
+        "fcm-web-push-ionic": [
+          "fcm-web-push-ionic"
         ]
       }
     }

@@ -7,3 +7,9 @@
 [submodule "crud-angularfirestore-ionic4"]
 	path = crud-angularfirestore-ionic4
 	url = https://github.com/meumobi/mmb-demos.crud-angularfirestore-ionic4
+[submodule "mmb-demos.fcm-web-push-ionic"]
+	path = mmb-demos.fcm-web-push-ionic
+	url = https://github.com/meumobi/mmb-demos.fcm-web-push-ionic
+[submodule "fcm-web-push-ionic"]
+	path = fcm-web-push-ionic
+	url = https://github.com/meumobi/mmb-demos.fcm-web-push-ionic
